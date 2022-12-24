@@ -1,0 +1,33 @@
+footer{
+    margin-top: 250px;
+    text-align: center;
+}
+
+footer h2{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+footer p{
+    font-size: 15px;
+    margin-bottom: -30px;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+.icons{
+    font-size: 40px;
+    color: #aaa;
+    margin: 10px 10px;
+}
+
+hr{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 10px;
+    width: 500px;
+}

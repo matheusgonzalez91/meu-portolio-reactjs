@@ -1,0 +1,13 @@
+.up{
+    position: fixed;
+    top: 50%;
+    left: 95%;
+    transform: translate(-50%, 730%);
+    overflow-x: hidden;
+}
+
+.up img{
+    width: 35px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,148 @@
+.sobre{
+    display: flex;
+    margin-top: 100px;
+    padding: 0 2%;
+    overflow-x: hidden;
+}
+
+.titulo-sobre{
+    width: 40%;
+    padding: 10px 2%;
+}
+
+.titulo-sobre h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.titulo-sobre p{
+    margin-top: 15px;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.titulo-linguagens h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.linguagens{
+    margin-top: 50px;
+    text-align: center;
+    width: 20%;
+}
+
+.titulo-db h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.db{
+    margin-top: 50px;
+    text-align: center;
+    width: 20%;
+}
+
+.db img{
+    width: 120px;
+}
+
+.titulo-frameworks h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.frameworks{
+    margin-top: 50px;
+    text-align: center;
+    padding: 0 1%;
+    width: 20%;
+}
+
+.frameworks img{
+    width: 120px;
+}
+
+/* Slider */
+
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 17rem;
+}
+
+.testimonial span{
+    text-transform: uppercase;
+    font-weight: normal;
+    height: 3rem;
+}
+
+.testimonial2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 17rem;
+}
+
+.testimonial2 span{
+    text-transform: uppercase;
+    font-weight: normal;
+    height: 3rem;
+}
+
+.testimonial3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 17rem;
+}
+
+.testimonial3 span{
+    text-transform: uppercase;
+    font-weight: normal;
+    height: 3rem;
+}
+ 
+.linguagens .swiper-pagination-bullet-active{
+    background: #00A5CF;
+}
+
+.db .swiper-pagination-bullet-active{
+    background: #00A5CF;
+}
+
+.frameworks .swiper-pagination-bullet-active{
+    background: #00A5CF;
+}
+
+@media screen and (max-width: 1024px){
+    .sobre{
+        display: block;
+    }
+    
+    .titulo-sobre{
+        width: 100%;
+    }
+
+    .linguagens{
+        width: 100%;
+    }
+
+    .db{
+        width: 100%;
+    }
+
+    .frameworks{
+        width: 100%;
+    }
+    
+}

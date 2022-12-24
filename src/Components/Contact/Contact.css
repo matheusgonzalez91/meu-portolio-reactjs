@@ -1,0 +1,178 @@
+.contact{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-title{
+    width: 60%;
+    padding: 0 2%;
+    text-align: center;
+}
+
+.contact-title h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+
+.contact-title p{
+    color: rgb(119, 119, 119);
+}
+
+.contact-title p:nth-of-type(3){
+    margin-top: 20px;
+}
+
+.formulario{
+    width: 40%;
+    padding: 0 2%;
+}
+
+form input[type=text]{
+    width: 65%;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #D9D9D9;
+    outline: none;
+    padding-left: 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+form input[type=email]{
+    width: 65%;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #D9D9D9;
+    outline: none;
+    padding-left: 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+textarea{
+    width: 65%;
+    height: 200px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #D9D9D9;
+    outline: none;
+    padding: 10px 8px;
+    resize: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+form input[type=submit]{
+    display: block;
+    width: 150px;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #00A5CF;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top: 10px;
+    outline: none;
+}
+
+::placeholder{
+    color: #aaa;
+}
+
+label{
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.icon-whatsapp{
+    position: relative;
+    top: 5px;
+    color: green;
+    font-size: 20px;   
+}
+
+.icon-email{
+    position: relative;
+    top: 5px;
+    color: red;
+    font-size: 20px;   
+}
+
+@media screen and (max-width: 1024px){
+    .contact{
+        display: block;
+    }
+
+    .contact-title{
+        width: 100%;
+        padding: 0 2%;
+        text-align: center;
+    }
+
+    .formulario{
+        width: 100%;
+        padding: 0 2%;
+        margin: 50px auto;
+        text-align: center;
+    }
+    
+    form input[type=text]{
+        width: 75%;
+        height: 30px;
+        border-radius: 5px;
+        border: 0;
+        background-color: #D9D9D9;
+        outline: none;
+        padding-left: 8px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+    
+    form input[type=email]{
+        width: 75%;
+        height: 30px;
+        border-radius: 5px;
+        border: 0;
+        background-color: #D9D9D9;
+        outline: none;
+        padding-left: 8px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+    
+    textarea{
+        width: 75%;
+        height: 200px;
+        border-radius: 5px;
+        border: 0;
+        background-color: #D9D9D9;
+        outline: none;
+        padding: 10px 8px;
+        resize: none;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+
+    form input[type=submit]{
+        display: block;
+        width: 150px;
+        height: 30px;
+        border: 0;
+        border-radius: 5px;
+        background-color: #00A5CF;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: white;
+        cursor: pointer;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        outline: none;
+        margin: 10px auto;
+    }
+}
